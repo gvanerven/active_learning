@@ -4,6 +4,7 @@ from sklearn import datasets
 from sklearn.model_selection import train_test_split
 import pandas as pd
 
+
 class Iris(Dataset):
     def __init__(self, perc_label):
         dataset = datasets.load_iris()
