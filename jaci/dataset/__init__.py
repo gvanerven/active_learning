@@ -1,15 +1,13 @@
 # -*- coding: utf-8 -*-
 
 class Dataset:
-    self.dataset = None
 
     def __init__(self):
+        self.unlabeled_dataset = None
+        self.labeled_dataset = None
         pass
 
     def get_features(self):
-        pass
-
-    def get_labels(self):
         pass
 
     def shape(self):
@@ -21,8 +19,21 @@ class Dataset:
     def fetch_all(self):
         pass
 
-    def read_batch(self, size_batch):
+    def save_new_unlabels(self, records):
         pass
 
-    def get_dataset(self):
-        return self.dataset
+    def save_labeled_records(self, records):
+        pass
+
+    def get_unlabeled_dataset(self):
+        return self.unlabeled_dataset
+
+    def get_labeled_dataset(self):
+        return self.labeled_dataset
+
+    def unlabeled_as_pandas(self):
+        pass
+
+    def labeled_as_pandas(self):
+        pass
+
