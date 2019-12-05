@@ -19,10 +19,10 @@ class Dataset:
     def fetch_all(self):
         pass
 
-    def save_new_unlabels(self, records):
+    def insert_new_unlabels(self, records):
         pass
 
-    def save_labeled_records(self, records):
+    def insert_labeled_records(self, records):
         pass
 
     def get_unlabeled_dataset(self):
