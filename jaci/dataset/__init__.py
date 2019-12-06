@@ -31,9 +31,3 @@ class Dataset:
     def get_labeled_dataset(self):
         return self.labeled_dataset
 
-    def unlabeled_as_pandas(self):
-        pass
-
-    def labeled_as_pandas(self):
-        pass
-
